@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="toDoList"/>
+    <BaseLayout />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import BaseLayout from './Layout/BaseLayout.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    BaseLayout
   }
 }
 </script>
